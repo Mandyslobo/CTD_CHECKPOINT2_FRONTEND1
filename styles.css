@@ -1,0 +1,160 @@
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&family=Roboto&display=swap');
+* {
+
+  padding: 0;
+  margin: 0;
+  font-family: 'Great Vibes', cursive;
+
+}
+body {
+
+  width: 100%;
+  background-color: #F9F3F3;
+  
+
+
+}
+.main-header {
+
+  background-color: #FFB74D;
+  position: sticky;
+  top: 0;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1;
+ 
+}
+
+.main-header .container-fluid ul li a {
+
+  text-decoration: none;
+  color: #101010;
+  font-weight: 600;
+  letter-spacing: 4px;
+  transition: 0.4s ease-in-out
+}
+.main-header .container-fluid ul li a:hover {
+
+  opacity: 0.6
+}
+.navbar-brand .logo {
+
+  height: 80px;
+
+}
+.modal-header {
+
+  background-color: #FFB74D;
+}
+.modal-content {
+
+  background-color: whitesmoke;
+}
+.button-login {
+  color: #101010;
+   letter-spacing: 2px;
+   background-color: rgba(87, 192, 26, 0.897);
+   width: 200px;
+   padding: 12px;
+   border: none;
+   margin-top: 24px;
+   border-radius: 12px;
+   transition: 0.4s ease-in-out;
+   cursor: pointer;
+}
+.button-login:hover {
+
+  color: #101010;
+   transform: scale(1.05);
+   background-color: rgba(66, 155, 14, 0.815); 
+}
+.teste {
+
+  gap: 30px;
+  justify-content: center;
+  padding: 30px;
+
+}
+.card-img-top {
+
+  width: 340px;
+  height: 280px;
+  border-radius: 20px;
+  gap: 20px;
+  padding: 12px;
+}
+.card-custom {
+
+  width: 350px;
+  align-items: center;
+
+}
+
+.modal-body h1 {
+
+padding-top: 20px;
+font-size: 15px;
+color: #101010;
+font-weight: 600;
+letter-spacing: 2px;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+.modal-body h2 {
+
+  padding-top: 20px;
+  color: #101010;
+  font-size: 12px;
+  font-weight: 600;
+  letter-spacing: 2px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.modal-body ul li {
+
+  padding-top: 15px;
+  color: #101010;
+  font-size: 20px;
+  font-weight: 500;
+  letter-spacing: 2px;
+}
+
+.modal-body ol li {
+
+  padding-top: 15px;
+  color: #101010;
+  font-size: 20px;
+  font-weight: 500;
+  letter-spacing: 2px;
+}
+
+.modal-body p {
+
+  padding-top: 15px;
+  color: #101010;
+  font-size: 20px;
+  font-weight: 500;
+  letter-spacing: 2px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.btn-primary-custom {
+
+  background-color: #FFB74D;
+  border-color: #F9F3F3;
+
+}
+.btn-primary-custom:hover {
+  opacity: 0.6;
+  transform: scale(1.05);
+  border-bottom-color: #F9F3F3;
+  background-color: #f1950b;;
+}
